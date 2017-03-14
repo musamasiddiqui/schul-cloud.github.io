@@ -1,7 +1,7 @@
 Entwicklerportal der Schulcloud
 ===============================
 
-Das Entwicklerportal der Schulcloud ist erreichbar unter [schulcloud.github.io][protal].
+Das Entwicklerportal der Schulcloud ist erreichbar unter [schulcloud.github.io][portal].
 Es ist der Ort für Einsteiger und Erstentwickler:
 
 - um Hilfe zu ihren Projekten mit Schulcloud zu erhalten
