@@ -12,8 +12,20 @@ Es ist der Ort für Entwickler von Schulcoud:
 - ihre Ergebnisse zu zeigen
 - über Schulcloud und Möglichkeiten einzusteigen zu informieren
 
+Wo bekomme ich Hilfe zu Schulcloud?
+-----------------------------------
 
 
+Wie kann ich bei Schulcloud mitmachen?
+--------------------------------------
+
+
+Wo kann ich meine Ergebnisse zeigen?
+------------------------------------
+
+
+Wie kann ich Einsteigern helfen?
+--------------------------------
 
 
 Verwandte Arbeiten
