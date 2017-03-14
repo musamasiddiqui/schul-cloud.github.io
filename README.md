@@ -27,7 +27,7 @@ So kannst du anfangen:
 
 1. Finde ein [Einsteigerproblem][einsteigerissues], das du gerne lösen möchtest.
 2. Schreibe einen Kommentar darunter, dass du gerne daran arbeiten möchtest.
-3. Du kannst anfangen Code zu schreiben und deine Fragen zustellen.
+3. Du kannst anfangen Code zu schreiben und deine Fragen zu stellen.
 
 Eigene Projekte an Schulcloud anbinden
 --------------------------------------
@@ -46,7 +46,7 @@ Hier wird gesammelt, was du als Entwickelr vonSchulcloud dafür tun kannst:
 
 ### Issues erstellen
 
-Das Label `nur-für-neuinge` für [Einsteigerissues][einsteigerissues].
+Das Label `nur-für-einsteiger` für [Einsteigerissues][einsteigerissues].
 Das sind geeignete Issues für Einsteiger:
 
 - Alles, was nicht so wichtig ist, dich aber nur eine Minute kostet, es zu beheben
