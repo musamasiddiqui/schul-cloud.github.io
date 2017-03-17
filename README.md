@@ -37,6 +37,10 @@ Wo kann ich meine Ergebnisse zeigen?
 ------------------------------------
 [bloggen]: #wo-kann-ich-meine-ergebnisse-zeigen
 
+Du kannst am Entwicklerblog teilnehmen, indem du eine Datei in dem
+[Blogposts-Ordner][blog-posts] einfügst.
+DU kannst den [Blog auch einsehen][blog]
+
 Wie kann ich Einsteigern helfen?
 --------------------------------
 [helfen]: #wie-kann-ich-einsteigern-helfen
@@ -66,3 +70,5 @@ Hier wird weiterführende Literatur verlinkt.
 [rdd]: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 [masterarbeitniccokunzmann]: https://gitlab.quelltext.eu/niccokunzmann/masterarbeit/
 [einsteigerissues]: https://github.com/search?utf8=%E2%9C%93&q=label%3Anur-f%C3%BCr-einsteiger+is%3Aopen&type=Issues&ref=searchresults
+[blog-posts]: https://github.com/schul-cloud/schul-cloud.github.io/blob/master/dev/_posts
+[posts]: dev

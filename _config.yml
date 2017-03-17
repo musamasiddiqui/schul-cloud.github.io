@@ -1,0 +1,8 @@
+url: https://schul-cloud.github.io
+permalink: /blog/:year-:month-:day/:title
+sourcecode:
+  repository: "https://github.com/schul-cloud/schul-cloud.github.io"
+  root: "https://github.com/schul-cloud/schul-cloud.github.io/edit/master"
+license:
+  url: https://github.com/schul-cloud/schul-cloud.github.io/blob/master/LICENSE
+  image: https://img.shields.io/github/license/schul-cloud/schul-cloud.github.io.svg

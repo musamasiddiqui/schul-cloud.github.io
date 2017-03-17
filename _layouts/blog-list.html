@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html {% if page.language %}lang="{{ page.language | escape }}"{% endif %}>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% assign category = page.url | remove_first: "/" | split: "/" | first %}
+    {% assign title = category %}
+    {% for link in site.data.home_links %}
+      {% if link.url == category %}
+        {% assign title = link.name %}
+      {% endif %}
+    {% endfor %}
+    <title>{{ title | escape }}</title>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    {% assign category = page.path | split:"/" | first %}
+    <main id="content" class="content" role="main">
+      {% for post in site.posts %}
+        {% if category == post.categories.first %}
+          <article class="post">
+            <header class="post-header">
+              <h2 class="post-title">
+                <a href="{{ post.url | escape }}"
+                   {% if post.language %}hreflang="{{ post.language | escape }}"{% endif %}>
+                   {{ post.title | escape }}
+                </a>
+              </h2>
+            </header>
+            <section class="post-excerpt">
+                {{ post.excerpt }}
+                <a class="read-more" href="{{ post.url | escape }}">»</a>
+            </section>
+            <footer class="post-meta">
+              {% assign author = site.data.people[post.author] %}
+              <a href="{{ author.url }}">{{ author.name | escape}}</a>
+              <time class="post-date" datetime='{{ post.date | date: "%Y-%m-%d" }}'>{{ post.date | date: "%-d.%m.%Y" }}</time>
+            </footer>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
