@@ -1,7 +1,7 @@
 [schul-cloud.github.io][site]
 =============================
 
-Das Entwicklerportal der Schulcloud ist erreichbar unter [schulcloud.github.io][portal].
+Das Entwicklerportal der Schulcloud ist erreichbar unter [schulcloud.github.io][site].
 
 Verwandte Arbeiten
 ------------------
