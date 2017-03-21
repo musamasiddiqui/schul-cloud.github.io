@@ -65,4 +65,54 @@ If you Github user name is `USERNAME` you can make it viewable like this:
 
 Now, you should be able to see the same website as on https://schul-cloud.github.io
 
+How to Jekyll
+-------------
+
+There is a website with tips for you [jekyll.tips]][tips] and a [cheat sheet][cheat].
+
+### Markdown
+
+Jekyll transforms [Markdown Syntax][markdown] to HTML for us.
+
+### Front Matter
+
+When two lines are in the beginning, jekyll knows that it should transform the file:
+```
+---
+
+---
+```
+
+Between the lines, you can write [YAML][yaml]:
+
+```
+---
+variable: "text content"
+---
+```
+
+Some have special meaning:
+- `layout` is the name of a file in the [`_layouts`][_layouts] folder.
+  This layout-file can use `{{ page.content }}` somewhere in it.
+  Thus, the layout-file is the structure around the content.
+  It can be used so many pages have the same layout.
+  
+[Documentation][front-matter]
+
+### Includes
+
+Sometimes you can see
+```
+{{ include footer.html }}
+```
+This means that Jekyll copy and pastes the content if [`_includes/footer.html`](_includes/footer.html) to this place.
+
+**TODO**: Find page on https://jekyllrb.com
+
+
 [fork]: https://github.com/schul-cloud/schul-cloud.github.io/fork
+[tips]: http://jekyll.tips/
+[markdown]: http://daringfireball.net/projects/markdown/syntax
+[yaml]: http://www.yaml.org/spec/1.2/spec.html
+[cheat]: http://jekyll.tips/jekyll-cheat-sheet/
+[front-matter]: https://jekyllrb.com/docs/frontmatter/
