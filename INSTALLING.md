@@ -92,10 +92,17 @@ variable: "text content"
 ```
 
 Some have special meaning:
-- `layout` is the name of a file in the [`_layouts`][_layouts] folder.
-  This layout-file can use `{{ page.content }}` somewhere in it.
-  Thus, the layout-file is the structure around the content.
-  It can be used so many pages have the same layout.
+`layout` is the name of a file in the [`_layouts`][_layouts] folder.
+This layout-file can use `{{ page.content }}` somewhere in it.
+Thus, the layout-file is the structure around the content.
+It can be used so many pages have the same layout.
+
+This example uses the [`_layouts/blog-post.html`](_layouts/blog-post.html) to generare a blogpost page for its content:
+```
+---
+layout: blog-post
+---
+```
   
 [Documentation][front-matter]
 
