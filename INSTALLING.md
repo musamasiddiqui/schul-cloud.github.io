@@ -20,6 +20,8 @@ Here you can learn more about it:
    `git clone https://github.com/schul-cloud/schul-cloud.github.io.git`
 3. Now you have the folder `schul-cloud.github.io`
 
+In the folder `schul-cloud.github.io` you should be able to see all the files of the repository.
+
 Install Jekyll to Serve the Website
 -----------------------------------
 
@@ -55,10 +57,12 @@ Editing there might be slow.
 If you Github user name is `USERNAME` you can make it viewable like this:
 
 1. [Fork the website][fork]
-2. Go to the settings: https://github.com/USERNAME/schul-cloud.github.io/settings
+2. Go to the settings: https://github.com/USERNAME/schul-cloud.github.io/settings  
    ![image](https://cloud.githubusercontent.com/assets/564768/24150542/4906cc6a-0e46-11e7-9154-f1c738a712c4.png)
-3. Switch on the github pages:
+3. Switch on the github pages:  
    ![image](https://cloud.githubusercontent.com/assets/564768/24150582/5ff59410-0e46-11e7-84cd-5881fafd12a9.png)
 4. go to USERNAME.github.io/schul-cloud.github.io to view your version of the website.
-   
+
+Now, you should be able to see the same website as on https://schul-cloud.github.io
+
 [fork]: https://github.com/schul-cloud/schul-cloud.github.io/fork
