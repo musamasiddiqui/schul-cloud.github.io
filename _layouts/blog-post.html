@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html {% if page.language %}lang="{{ page.language | escape }}"{% endif %}>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | escape }}</title>
-    {% include head.html %}
-  </head>
-  <body>
-    {% include header.html %}
-    <main id="content" class="content" role="main">
-      {{ page.content }}
-    </main>
-    {% include footer.html %}
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }}</title>
+  {% include head.html %}
+</head>
+<body>
+  <main class="content" role="main">
+    <article class="post">
+
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <section class="post-meta">
+          <time class="post-date" datetime="2017-03-17">17 March 2017</time> 
+        </section>
+      </header>
+
+      <section class="post-content">
+        {{ page.content }}
+      </section>
+      {% include post-footer.html %}
+    </article>
+  </main>
+  <!-- Hardcoded temporarily -->
+  <aside class="read-next">
+    <a class="read-next-story prev no-cover" href="/technischer-bericht-veroffentlicht/">
+      <section class="post">
+        <h2>Technischer Bericht veröffentlicht</h2>
+        <p>Der Technische Bericht wurde am Donnerstag, den 9. März, veröffentlicht und beinhaltet die Grundlegenden Technischen Aspekte, Dienste und Komponenten…</p>
+      </section>
+    </a>
+  </aside>
+</body>
 </html>
