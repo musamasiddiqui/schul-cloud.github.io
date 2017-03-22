@@ -25,13 +25,25 @@
       </article>
     </main>
     <!-- Hardcoded temporarily -->
+
+
     <aside class="read-next">
-      <a class="read-next-story prev no-cover" href="/technischer-bericht-veroffentlicht/">
+      {% if page.next.url %}
+      <a class="read-next-story no-cover" href="{{ page.next.url }}">
         <section class="post">
-          <h2>Technischer Bericht veröffentlicht</h2>
-          <p>Der Technische Bericht wurde am Donnerstag, den 9. März, veröffentlicht und beinhaltet die Grundlegenden Technischen Aspekte, Dienste und Komponenten…</p>
+          <h2>{{ page.next.title }}</h2>
+          <p>{{ page.next.excerpt | strip_html | truncatewords: 18 }}</p>
         </section>
       </a>
+      {% endif %}
+      {% if page.previous.url %}
+      <a class="read-next-story prev no-cover" href="{{ page.previous.url }}">
+        <section class="post">
+          <h2>{{ page.previous.title }}</h2>
+          <p>{{ page.previous.excerpt | strip_html | truncatewords: 18 }}</p>
+        </section>
+      </a>
+      {% endif %}
     </aside>
   </div>
 </body>
