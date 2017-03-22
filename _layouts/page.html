@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html {% if page.language %}lang="{{ page.language | escape }}"{% endif %}>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    {{ include head.html }}
+    {% include footer.html %}
+</body>
+</html>
