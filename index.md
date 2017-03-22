@@ -1,8 +1,7 @@
 ---
+layout: page
 ---
 
-Entwicklerportal der Schulcloud
-===============================
 
 Es ist der Ort für Einsteiger und Erstentwickler:
 

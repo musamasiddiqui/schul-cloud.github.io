@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html {% if page.language %}lang="{{ page.language | escape }}"{% endif %}>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/schul-cloud.css">
+</head>
+<body>
+    {% include header.html %}
+    {{ page.content }}
+    {% include footer.html %}
+</body>
+</html>
