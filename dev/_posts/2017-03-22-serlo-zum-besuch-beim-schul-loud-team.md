@@ -2,7 +2,7 @@
 layout: blog-post
 title: Serlo zum Besuch beim Schul-Cloud Team
 language: en
-author: niccokunzmann
+author: janrenz
 ---
 
 Simon Köhl von serlo (serlo.de) war zu Besuch beim Schul-Cloud Team. Dabei konnte durch das Schul-Cloud Team vorgeführt werden wie die Serlo-Inhalte in der Schul-Cloud einfach zu finden sind. 
