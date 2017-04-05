@@ -1,6 +1,8 @@
 [schul-cloud.github.io][site]
 =============================
 
+[![](http://firsttimers.quelltext.eu/repository/schul-cloud/schul-cloud.github.io.svg)](http://firsttimers.quelltext.eu/repository/schul-cloud/schul-cloud.github.io.html)
+
 Das Entwicklerportal der Schulcloud ist erreichbar unter [schulcloud.github.io][site].
 
 Verwandte Arbeiten
