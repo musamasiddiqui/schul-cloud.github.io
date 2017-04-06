@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd "`dirname \"$0\"`"
-cd ..
+cd ../_site
 
 echo "In directory"
 pwd

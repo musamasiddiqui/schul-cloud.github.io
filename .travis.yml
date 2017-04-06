@@ -4,5 +4,5 @@ rvm:
 install: 
   - gem install jekyll
 script:
-- tests/schul-cloud-spelling.sh
 - jekyll build
+- tests/schul-cloud-spelling.sh
