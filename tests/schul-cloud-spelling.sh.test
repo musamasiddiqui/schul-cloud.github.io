@@ -1,0 +1,7 @@
+Schul- Cloud        # fail
+schul -cloud        # fail
+schul asd cloud     # ok
+schul.cloud         # fail
+schulcloud          # fail
+Schulcloud          # fail
+Shcul-cloud         # fail

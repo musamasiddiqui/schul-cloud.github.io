@@ -5,3 +5,4 @@ install:
   - gem install jekyll
 script:
 - jekyll build
+- tests/schul-cloud-spelling.sh
