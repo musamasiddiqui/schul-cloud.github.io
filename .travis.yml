@@ -3,6 +3,9 @@ rvm:
   - 2.1
 install: 
   - gem install jekyll
+before_script:
+# install egrep
+- wget ftp.gnu.org/gnu/grep/grep-3.0.tar.xz && tar -xJf grep-3.0.tar.xz && cd grep-3.0 && ./configure && make && sudo make install
 script:
 - jekyll build
 - tests/schul-cloud-spelling.sh

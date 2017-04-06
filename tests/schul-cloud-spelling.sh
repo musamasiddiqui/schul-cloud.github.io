@@ -11,12 +11,12 @@ regex='schul(([^0-9a-zA-Z-])+|([[^:space:-]])*|[[:space:]]+-[[:space:]]*|[[:spac
 
 echo 1
 
-echo grep -n -riE "$regex"
+echo egrep -n -riE "$regex"
 find .
 echo ---------------
-grep -V
+egrep -V
 echo ---------------
-if grep "$regex"
+if egrep "$regex"
 then
   1>&2 echo -e "\e[1;31mMisspelling detected!\e[0m"
   exit 1
