@@ -6,7 +6,7 @@ author: niccokunzmann
 ---
 
 Die Schul-cloud bekommt einen neuen Entwickler-Blog.
-So können alle Entwicklungen an Schulcloud mitverfolgt werden.
+So können alle Entwicklungen an Schul-Cloud mitverfolgt werden.
 
 <!--more-->
 
