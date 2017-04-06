@@ -1,22 +1,9 @@
 #!/bin/bash
 
 cd "`dirname \"$0\"`"
-cd ../_site
+cd ..
 
-echo "In directory"
-pwd
-echo
-
-regex='schul(([^0-9a-zA-Z-])+|([[^:space:-]])*|[[:space:]]+-[[:space:]]*|[[:space:]]*-[[:space:]]+)cloud|shcul'
-
-echo 1
-
-echo egrep -n -riE "$regex"
-find .
-echo ---------------
-egrep -V
-echo ---------------
-if egrep "$regex"
+if grep -riE 'schul(([^0-9a-zA-Z-])+|([[^:space:-]])*|[[:space:]]+-[[:space:]]*|[[:space:]]*-[[:space:]]+)cloud|shcul' | grep -vF '# fail'
 then
   1>&2 echo -e "\e[1;31mMisspelling detected!\e[0m"
   exit 1
