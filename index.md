@@ -7,13 +7,13 @@ layout: page
 Es ist der Ort für Einsteiger und Erstentwickler:
 
 - [um Hilfe zu ihren Projekten mit Schul-Cloud zu erhalten][hilfe]
-- [zu Schulcloud beizutragen][mitmachen]
-- [Schulcloud für eigene Projekte nutzen][anbinden]
+- [zu Schul-Cloud beizutragen][mitmachen]
+- [Schul-Cloud für eigene Projekte nutzen][anbinden]
 
 Es ist der Ort für Entwickler von Schul-Cloud:
 
 - [ihre Ergebnisse zu zeigen][bloggen]
-- [über Schulcloud und Möglichkeiten einzusteigen zu informieren][helfen]
+- [über Schul-Cloud und Möglichkeiten einzusteigen zu informieren][helfen]
 
 Wo bekomme ich Hilfe zu Schul-Cloud?
 ------------------------------------
