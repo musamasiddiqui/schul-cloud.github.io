@@ -1,7 +1,9 @@
 [schul-cloud.github.io][site]
 =============================
 
+[![Build Status](https://travis-ci.org/schul-cloud/schul-cloud.github.io.svg?branch=master)](https://travis-ci.org/schul-cloud/schul-cloud.github.io)
 [![](http://firsttimers.quelltext.eu/repository/schul-cloud/schul-cloud.github.io.svg)](http://firsttimers.quelltext.eu/repository/schul-cloud/schul-cloud.github.io.html)
+
 
 Das Entwicklerportal der Schul-Cloud ist erreichbar unter [schul-cloud.github.io][site].
 
