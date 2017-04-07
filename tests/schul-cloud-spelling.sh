@@ -9,5 +9,5 @@ then
   exit 1
 fi
 
-1>&2 echo -e "\e[1;32mAll correct\e[0m"
+1>&2 echo -e "\e[1;32mSchul-Cloud is spelled correctly all through the website.\e[0m"
 exit 0
