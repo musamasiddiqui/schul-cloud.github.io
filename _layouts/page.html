@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/schul-cloud.css">
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheets/schul-cloud.css"> -->
+    <title>{{ title | escape }}</title>
+    {% include head.html %}
 </head>
 <body>
     {% include header.html %}
-    {{ content }}
+    <main id="content" class="content" role="main">
+      <article class="post">
+        {{ content }}
+      </article>
+    </main>
     {% include footer.html %}
 </body>
 </html>
